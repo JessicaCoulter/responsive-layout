@@ -1,0 +1,301 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: rgb(61, 62, 64);
+  background: #f8bd9e;
+}
+
+body {
+  padding-bottom: 12px;
+}
+
+img {
+  max-width: 100%
+}
+
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 8px;
+  color: #216a61;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #216a61;
+}
+
+h2 {
+  font-weight: 600;
+  background-color: white;
+}
+
+h3,
+.top {
+  text-transform: uppercase;
+}
+
+
+/* ------------ IDs ------------- */
+
+
+/* ------------ Classes ------------- */
+
+.project {
+  background-color: #e7cfcf;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-wrapper {
+  background-color: #e7cfcf;
+  padding: inherit;
+}
+
+.profile-pic {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.contact-info {
+  font-weight: 700;
+}
+
+.skills-title {
+  text-decoration: underline;
+
+}
+
+.skills-section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  border: 5px dotted black;
+}
+
+.p-color {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.main-title {
+  font-size: 30px;
+}
+
+.section-one img {
+  width: 70%;
+}
+
+.bio,
+.contact-bio {
+  color: #216a61;
+  font-family: 'Indie Flower';
+  font-size: 20px;
+}
+
+.contact-bio {
+  margin-right: 5px;;
+  margin-left: 5px;;
+}
+
+.portfolio-container {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: white;
+}
+
+.portfolio-h3 {
+  background-color: white;
+  font-size: 18px;
+}
+
+.project-wrapper,
+.project,
+.p-color {
+  background-color: white;
+  width: inherit;
+}
+
+.bottom-nav{
+    display: none;
+}
+
+.name {
+  float: left;
+  margin-left: 10px;
+}
+
+.top {
+  float: left;
+  margin: 17px 0 0 90px;
+}
+
+/* ------------ Media Queries ------------- */
+
+@media only screen and (min-width: 768px) {
+
+  h1 {
+    padding: 30px 0 10px;
+    }
+
+  .profile-pic {
+    max-width: 35%;
+    padding: 0;
+    float: right;
+    margin: 20px 15px 0 0;
+    }
+
+  .main-nav li {
+    display: inline-block;
+    background-color: #f8bd9e;
+    padding: 0 10px;
+  }
+
+  .bio {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 30% 0 5%;
+  }
+
+  .section-one p {
+    margin: 20px 30px 40px 5px;
+    padding-right: 10px;
+    padding-left: 8px;
+    }
+
+  .project {
+    display: inline-block;
+    padding-bottom: 20px;
+    max-width: 45%;
+    line-height: 1.5rem;
+    margin: 0 8px 0 8px;
+    }
+
+  .project-wrapper {
+    overflow: auto;
+    }
+
+  .skills-section {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    }
+
+  .skills-section ul {
+    line-height: 5px;
+    padding: 0 10px 0 10px;
+    }
+
+  .p-color {
+    margin-left: 0;
+    font-size: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+  .portfolio-container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .bottom-nav {
+    display:flex;
+    margin-left: 155px;
+    padding-right: 15px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  footer{
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+  }
+
+  .contact-bio {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  h4 {
+    padding: 4px
+  }
+
+  .name {
+   font-size: 18px;
+   float: right;
+   margin-right: 20%;
+   padding-left: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  body {
+    background-color: #f8bd9e;
+  }
+
+  .main-title {
+    width: 30%;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+
+  .main-nav {
+      width: 40%;
+      position: absolute;
+      right: 0;
+      top: 10%;
+      margin-right: 10px;
+      font-size: 12px;
+  }
+
+  .section-one p {
+    margin: 25px 50px 40px 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .profile-pic {
+    max-width: 28%;
+    padding: 0;
+    margin: 0 50px 0 0;
+  }
+
+  .bio {
+    padding: 5% 40% 5% 40%;
+    max-width: 40%;
+  }
+
+.bottom-nav {
+  margin-left: 35%;
+  font-size: 14px;
+}
+
+.name {
+  padding-top: 0;
+}
+
+.project {
+  max-width: 30%;
+}
+
+}
